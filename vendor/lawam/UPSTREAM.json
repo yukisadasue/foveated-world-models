@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/RLinf/LaWAM",
+  "commit": "c12168d9077edea67fe7c1b70d08b80b8e65a9c8",
+  "files_sha256": {
+    "latent_action_model/config/dino_large_vae.yaml": "8098a296ab0fb8ed56e4c0e2b2a7e53251be29edc11089568372a70dba2e888b",
+    "latent_action_model/core/lam_lightinng.py": "c47ea36c98bd8424acb74adf44e93bf0ea7e7a2f369fccfdc0c423fea7fa788c",
+    "latent_action_model/core/lam_model.py": "93827eaeffc1c41c8666debedf014b957daf23b79509c0123babaecc2507c38b",
+    "latent_action_model/core/utils/lam_decoder.py": "8bf31b43c4530d5a835cba4f001ada5d404ff5002673a68956c010a829079137",
+    "latent_action_model/core/utils/lam_encoder.py": "db55c9946db8acc1474b01380e182f151a562abdcea8daa1a8bc575daffd115d",
+    "latent_action_model/core/utils/modules.py": "f100161a90f66cad89af39f615c58ece34316e643c6f21d561122a29ee877c44",
+    "latent_action_model/core/utils/pos_embs.py": "756b578d7c691d85f1b1ebcc99a7375df60fe227ae88330084a506b5e9c83875",
+    "latent_action_model/core/utils/utils.py": "69ebc8746b99010692ddc4622d154fe2c48a476f8e64c8784805149dcd4d7bfd",
+    "latent_action_model/core/vjepa_encoder.py": "da3ebc54fe9b28a1ab0b1c4abf82bf0877a7fd12c41579115776c1fa2fe1dc93",
+    "latent_action_model/core/vq.py": "827f96892efd9b10f6942ea78ab294ff39b0a91a32a61cbdd93cac46e6f9a5ff",
+    "latent_action_model/data_loader/collate.py": "5953e9b334dce0eb1cb461c92c118f2d6ad4743f19f75fd74311aa86b6b20645",
+    "latent_action_model/data_loader/video_aug.py": "e425cf9ea33ae6abe583c13afe86e1337eec309ed293e32cccb2f69daf9fb69b"
+  }
+}
