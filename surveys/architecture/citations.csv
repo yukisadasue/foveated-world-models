@@ -1,0 +1,62 @@
+citing_id,cited_id,cited_title,cited_url,locator,priority_reason,scope_status
+W001,W002,Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning,https://arxiv.org/abs/2601.16163,§1,先行する動画方策WAM,in_scope
+W010,,DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset,https://arxiv.org/abs/2403.12945,"§4, References",世界モデルの訓練データ（LeWM調査済み。今回の54件とは別枠）,foundational_outside_scope
+W015,W001,World Action Models are Zero-shot Policies,https://arxiv.org/abs/2602.15922,§1 Introduction,既存 WAM の比較基盤とする主要先行研究,in_scope
+W018,W002,Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning,https://arxiv.org/abs/2601.16163,§I Fig. 1,RoboCasa の対応する直接比較対象,in_scope
+W029,W027,Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets,https://arxiv.org/abs/2504.02792,"§2.1, Table 1",直接比較される2D統一世界モデル,foundational_outside_scope
+W024,W030,Causal World Modeling for Robot Control,https://arxiv.org/abs/2601.21998,"§4, Fig. 2",実機比較対象LingBot-VA,in_scope
+W029,L032,Fast-WAM: Do World Action Models Need Test-time Future Imagination?,https://arxiv.org/abs/2603.16666,Appendix Limitations and Future Work,遅延比較の軽量WAM,in_scope
+W025,,RMBench: Memory-Dependent Robotic Manipulation Benchmark with Insights into Policy Design,https://arxiv.org/abs/2603.01229,"§1, Table 1",記憶依存操作の直接評価ベンチマーク（書誌確認のみ、本文は未調査の次回候補）,unresolved
+W032,W031,WorldVLA: Towards Autoregressive Action World Model,https://arxiv.org/abs/2506.21539,"§4, Table 1",LIBEROの比較対象,foundational_outside_scope
+W033,W001,World Action Models are Zero-shot Policies,https://arxiv.org/abs/2602.15922,§1–2,動画・行動共同生成の先行研究,in_scope
+W035,W034,AHA-WAM:Asynchronous Horizon-Adaptive World-Action Modeling with Observation-Guided Context Routing,https://arxiv.org/abs/2606.09811,"§2, Table 2",非同期世界・行動モデルの比較,in_scope
+W021,W036,Motus: A Unified Latent Action World Model,https://arxiv.org/abs/2512.13030,§2; References [1],効率化WAMの直接比較基準,in_scope
+W025,W036,Motus: A Unified Latent Action World Model,https://arxiv.org/abs/2512.13030,§1–2; References [1],潜在行動の先行研究,in_scope
+L001,,LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics,https://arxiv.org/abs/2511.08544,§3.1 [6],SIGRegの基礎,foundational_outside_scope
+L001,L003,DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning,https://arxiv.org/abs/2411.04983,§4.1 [51],直接比較対象,foundational_outside_scope
+L003,,DINOv2: Learning Robust Visual Features without Supervision,https://arxiv.org/abs/2304.07193,§3.1.1,固定視覚符号器の基礎,foundational_outside_scope
+L006,L001,LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels,https://arxiv.org/abs/2603.19312,"§1, §4",直接基礎・比較対象,in_scope
+L025,L031,JEPA-WAM: Learning Vision-Language-Action Policies with Joint-Embedding World Modeling,https://arxiv.org/abs/2608.09381,"§2, §5, Appendix B",最も近い直接比較。50課題値の一部は回帰推定,in_scope
+L025,L030,LeapBot-WA: World-Anchor Action Models via Predictive Latent Alignments,https://arxiv.org/abs/2607.23969,"§2, §5",最も近い直接比較,in_scope
+L025,L032,Fast-WAM: Do World Action Models Need Test-time Future Imagination?,https://arxiv.org/abs/2603.16666,"§1, §3, §5",学習時予測と推論時行動生成の基礎・直接比較,in_scope
+L023,L021,"V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",https://arxiv.org/abs/2506.09985,§1–2; References [4],ロボット潜在計画の基礎,foundational_outside_scope
+L050,L021,"V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",https://arxiv.org/abs/2506.09985,"§1, §3.1–3.2",潜在動画予測の基礎,foundational_outside_scope
+L001,,VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning,https://arxiv.org/abs/2105.04906,§2; References: VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture,https://arxiv.org/abs/2301.08243,§2; References: Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,Revisiting Feature Prediction for Learning Visual Representations from Video,https://arxiv.org/abs/2404.08471,§2; References: Revisiting Feature Prediction for Learning Visual Representations from Video,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,Temporal Difference Learning for Model Predictive Control,https://arxiv.org/abs/2203.04955,§2; References: Temporal Difference Learning for Model Predictive Control,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,"TD-MPC2: Scalable, Robust World Models for Continuous Control",https://arxiv.org/abs/2310.16828,"§2; References: TD-MPC2: Scalable, Robust World Models for Continuous Control",LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,Dream to Control: Learning Behaviors by Latent Imagination,https://arxiv.org/abs/1912.01603,§2; References: Dream to Control: Learning Behaviors by Latent Imagination,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,Mastering Diverse Domains through World Models,https://arxiv.org/abs/2301.04104,§2; References: Mastering Diverse Domains through World Models,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,Training Agents Inside of Scalable World Models,https://arxiv.org/abs/2509.24527,§2; References: Training Agents Inside of Scalable World Models,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,World Models,https://arxiv.org/abs/1803.10122,§2; References: World Models,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,DINOv2: Learning Robust Visual Features without Supervision,https://arxiv.org/abs/2304.07193,§4.1; References: DINOv2: Learning Robust Visual Features without Supervision,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,Offline Reinforcement Learning with Implicit Q-Learning,https://arxiv.org/abs/2110.06169,Appendix C.3; References: Offline Reinforcement Learning with Implicit Q-Learning,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,Joint Embedding Predictive Architectures Focus on Slow Features,https://arxiv.org/abs/2211.10831,§2; References: Joint Embedding Predictive Architectures Focus on Slow Features,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,L049,OSVI-WM: One-Shot Visual Imitation for Unseen Tasks using World-Model-Guided Trajectory Generation,https://arxiv.org/abs/2505.20425,§2; References: OSVI-WM: One-Shot Visual Imitation for Unseen Tasks using World-Model-Guided Trajectory Generation,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L001,,OGBench: Benchmarking Offline Goal-Conditioned RL,https://arxiv.org/abs/2410.20092,§4.1; References: OGBench: Benchmarking Offline Goal-Conditioned RL,LeWM本文で引用する基礎手法・比較対象・評価基盤,foundational_outside_scope
+L019,L001,LeWorldModel: Stable end-to-end joint-embedding predictive architecture from pixels,https://arxiv.org/abs/2603.19312,"1, 4.1, reference 53",平坦モデルの比較対象,in_scope
+L031,L021,"V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",https://arxiv.org/abs/2506.09985,§3.1,凍結視覚表現の基盤,foundational_outside_scope
+L029,L032,Fast-WAM: Do World Action Models Need Test-time Future Imagination?,https://arxiv.org/abs/2603.16666,§4,L029で実機比較した直接比較対象,in_scope
+L033,,Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware,https://arxiv.org/abs/2304.13705,§2.1,行動チャンク化の基盤,unresolved
+A022,A023,"InternVLA-A1: Unifying Understanding, Generation and Action for Robotic Manipulation",https://arxiv.org/abs/2601.02456,§1,直接の先行モデルと限界,in_scope
+A021,,π0: A Vision-Language-Action Flow Model for General Robot Control,https://arxiv.org/abs/2410.24164,§2,MoE適用元の基礎VLA,foundational_outside_scope
+A026,,RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control,https://arxiv.org/abs/2307.15818,Abstract; §I,比較設計の基線,foundational_outside_scope
+A014,A015,ReMem-VLA: Empowering Vision-Language-Action Model with Memory via Dual-Level Recurrent Queries,https://arxiv.org/abs/2603.12942,Related Work: Memory within VLA systems,二段階再帰記憶との直接比較・系譜,in_scope
+A016,A015,ReMem-VLA: Empowering Vision-Language-Action Model with Memory via Dual-Level Recurrent Queries,https://arxiv.org/abs/2603.12942,Related Work: Memory representations for manipulation,再帰記憶設計の関連先,in_scope
+A001,,π0.5: a vision-language-action model with open-world generalization,https://arxiv.org/abs/2504.16054,§1; §2; References [2],基礎となる凍結VLAと直接比較,in_scope
+A002,,X-VLA: soft-prompted transformer as scalable cross-embodiment vision-language-action model,https://arxiv.org/abs/2510.10274,§4.1; References [41],回復枠組みが包む直接比較対象,in_scope
+A008,,π0.5: a vision-language-action model with open-world generalization,https://arxiv.org/abs/2504.16054,Introduction; References,計画・実行器の出発点,in_scope
+A037,A027,Gemini Robotics 1.5,https://arxiv.org/abs/2510.03342,"§2.1, §4.3",推論VLAの基礎比較,foundational_outside_scope
+A032,,π0: A Vision-Language-Action Flow Model for General Robot Control,https://arxiv.org/abs/2410.24164,§4,勾配遮断の直接比較基線,foundational_outside_scope
+A056,A051,InstructVLA: Vision-Language-Action Instruction Tuning from Understanding to Manipulation,https://arxiv.org/abs/2507.17520,"§2.2, ref. 47",推論統合の直接関連,in_scope
+A056,A058,OpenVLA: An Open-Source Vision-Language-Action Model,https://arxiv.org/abs/2406.09246,"§3.2, §4.2, ref. 18",基盤構造と比較対象,in_scope
+A056,A060,CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models,https://arxiv.org/abs/2503.22020,"§2.2, ref. 52",視覚CoT関連,in_scope
+A055,A059,π0: A Vision-Language-Action Flow Model for General Robot Control,https://arxiv.org/abs/2410.24164,"§IV, §V",前身構造と比較対象,in_scope
+A054,A060,CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models,https://arxiv.org/abs/2503.22020,"§2.1, §4.1",明示計画の直接比較,in_scope
+A063,,Ctrl-World: A Controllable Generative World Model for Robot Manipulation,https://arxiv.org/abs/2510.10125,§4.2,実機評価との相関および履歴選択の直接比較対象,in_scope
+A065,,π0.5: a Vision-Language-Action Model with Open-World Generalization,https://arxiv.org/abs/2504.16054,§3; Limitations,唯一の検証済みバックボーン,foundational_outside_scope
+A049,A048,HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation,https://arxiv.org/abs/2502.05485,§II-A; References [9],2D軌道インターフェースの直接比較,in_scope
+A047,A046,SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics,https://arxiv.org/abs/2506.01844,§2.1; §4.2,ベース構造と直接比較対象,in_scope
+A042,A045,GR00T N1: An Open Foundation Model for Generalist Humanoid Robots,https://arxiv.org/abs/2503.14734,§2; References [27],人型VLAの基礎,in_scope
+A044,,PointWorld: Scaling 3D World Models for In-the-Wild Robotic Manipulation,https://arxiv.org/abs/2601.03782,§4.3; References [3],DROIDの世界モデル直接比較,in_scope

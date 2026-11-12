@@ -1,0 +1,22 @@
+{
+  "reviewed_at": "2026-11-12",
+  "included": 111,
+  "new_extraction": 65,
+  "reused_same_version": 46,
+  "review": "調査者による本文主要箇所の確認、ホストによる主要貢献・結果・限界の原文照合、追加4件の品質補強と独立スコープ監査。全付録の網羅的再読・実験再現は含まない。",
+  "excluded_after_audit": [
+    "L022",
+    "A057"
+  ],
+  "presentation_verification": "CoRL/RSS公式プログラムの題名一致。類似題名だけのA063は採択同一性未確認。",
+  "deleted_temporary_fulltext": [
+    "surveys/architecture/workers/20261111T231311148636-1/fulltext",
+    "surveys/architecture/workers/20261111T231216142000-1/fulltext",
+    "surveys/architecture/workers/20261111T231130577849-1/fulltext",
+    "surveys/architecture/workers/20261111T231625487888-1/fulltext",
+    "surveys/architecture/workers/20261111T231643323362-2/fulltext",
+    "surveys/architecture/workers/20261111T232005856496-1/fulltext",
+    "surveys/architecture/workers/20261111T231643323362-1/fulltext",
+    "/tmp/wam-corl-accepted.html"
+  ]
+}

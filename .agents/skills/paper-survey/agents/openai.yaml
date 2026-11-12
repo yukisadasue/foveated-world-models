@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Survey"
+  short_description: "論文を分担調査し、根拠付きCSVへ整理・重複確認・レビューする"
+  default_prompt: "Use $paper-survey to search for papers and organize a reviewed, evidence-backed CSV survey."

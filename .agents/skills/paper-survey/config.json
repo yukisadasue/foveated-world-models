@@ -1,0 +1,7 @@
+{
+  "reader_agent": {"model": "gpt-6.1-terra"},
+  "default_papers": 50,
+  "max_agents": 5,
+  "max_papers_per_assignment": 10,
+  "language": "ja"
+}

@@ -1,0 +1,12 @@
+search_id,source,query,filters,searched_at,coverage,stop_reason
+ARCH-S001,arXiv / Web search,"""Memory-augmented Action-conditioned World Model"" arxiv",公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
+ARCH-S002,arXiv / Web search,"""TEMPO: Learning Temporal Context"" arxiv",公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
+ARCH-S003,arXiv / Web search,"""Being-H0.5"" arxiv",公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
+ARCH-S004,arXiv / Web search,"""PRTS"" ""Primitive Reasoning"" arxiv",公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
+ARCH-S005,arXiv / Web search,"""EagleVLA"" arxiv",公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
+ARCH-S006,arXiv / Web search,"""REACT"" ""Rolling Denoising"" arxiv",公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
+ARCH-S007,arXiv / Web search,"""Diffusion ReRoll"" arxiv",公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
+ARCH-S008,arXiv / Web search,"""Semantic Anchoring for Robotic Action Representations""",公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
+ARCH-S009,CoRL official,https://www.corl.org/program/accepted-papers,公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
+ARCH-S010,RSS official,https://www.roboticsproceedings.org/rss22/,公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
+ARCH-S011,local registry,surveys/lewm + surveys/wam: core architecture same-version reuse,公開日 <=2026-11-11; WAM/VLA/中核オーケストレーション,2026-11-12,返却結果と一次本文URLを照合。公式プログラムはタイトル一覧を確認。既存検索履歴は元台帳参照。,中核111件を選定。網羅的文献集合ではない。RL中心/周辺論文は除外。
