@@ -1,0 +1,11 @@
+extends: stage1_official.yaml
+data:
+  format: robomind_video
+  train_manifest: /data2/yuki_sadasue/datasets/RoboMIND-lerobot/preprocessed/train.jsonl
+  val_manifest: /data2/yuki_sadasue/datasets/RoboMIND-lerobot/preprocessed/validation.jsonl
+  horizon_seconds: 1.2
+  tolerance_seconds: null
+  num_workers: 4
+trainer:
+  # Pilot and smoke configs override this with a small validation subset.
+  limit_val_batches: 1.0

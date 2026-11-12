@@ -17,3 +17,7 @@ surveys/**/assignments/
 checkpoints/
 datasets/
 wandb/
+
+# Local training outputs
+runs/
+*.ckpt

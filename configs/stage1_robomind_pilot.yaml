@@ -1,0 +1,7 @@
+# Full-size official IDM/LaWM, short real-data training run.
+extends: stage1_robomind.yaml
+trainer:
+  max_steps: 100
+  val_check_interval: 25
+  limit_val_batches: 10
+  enable_progress_bar: false

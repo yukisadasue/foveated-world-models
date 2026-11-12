@@ -1,0 +1,66 @@
+# Pinned upstream model/loss; reduced single-GPU runtime.
+seed: 42
+expected_vision:
+  model_type: dinov3_vit
+  hidden_size: 768
+  num_hidden_layers: 12
+  patch_size: 16
+  num_register_tokens: 4
+model:
+  vision_model_id: /data2/yuki_sadasue/models/dinov3-vitb16-pretrain-lvd1689m
+  dim: 1024
+  enc_layers: 24
+  ffn_expansion_factor: 4
+  num_heads: 16
+  max_state_dim: 32
+  num_embodiments: 32
+  codebook_size: 32
+  code_dim: 32
+  num_queries: 1
+  num_frames: 2
+  image_hw:
+  - 256
+  - 256
+  patch_size: 16
+  image_aug: true
+  dual_view_aug: true
+  dec_layers: 12
+  dropout: 0.0
+  warmup_steps: 10000
+  enc_add_state: false
+  enc_modal_mask: true
+  lambda_aux: 1.0
+  loss_type: smooth_l1
+  state_loss_type: l2
+  latent_layer_to_use: -2
+  multi_input: false
+  norm_latents: true
+  norm_latents_type: ln
+  lambda_diversity: 0.0
+  vq_type: vae
+  vq_kwargs:
+    layer_norm: true
+    beta: 5.0e-05
+  wandb_offline: true
+  exclude_bias_norm_from_wd: true
+optimizer:
+  lr: 0.0003
+  weight_decay: 0.01
+data:
+  horizon_seconds: 1.6
+  tolerance_seconds: 0.05
+  batch_size: 2
+  num_workers: 0
+trainer:
+  accelerator: gpu
+  devices: 1
+  strategy: auto
+  precision: bf16-mixed
+  max_steps: 1000
+  max_epochs: -1
+  accumulate_grad_batches: 1
+  gradient_clip_val: 1.0
+  log_every_n_steps: 1
+  val_check_interval: 100
+  num_sanity_val_steps: 1
+  limit_val_batches: 10

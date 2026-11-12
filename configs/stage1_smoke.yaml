@@ -1,0 +1,19 @@
+# Wiring test with real local DINO; deliberately reduced IDM/LaWM capacity.
+extends: stage1_robomind.yaml
+model:
+  dim: 64
+  num_heads: 4
+  enc_layers: 1
+  dec_layers: 1
+  num_embodiments: 2
+  max_state_dim: 32
+  warmup_steps: 0
+data:
+  batch_size: 1
+  num_workers: 0
+trainer:
+  precision: 32-true
+  max_steps: 2
+  val_check_interval: 1
+  limit_val_batches: 1
+  enable_progress_bar: false
