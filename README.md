@@ -25,10 +25,10 @@
 
 - `docs/`：現在の研究方針と実験設計。
 - `surveys/architecture/survey.csv`：閲覧用の統合台帳。
-- `surveys/architecture/` のその他CSV：再利用・根拠追跡用の内部台帳。
-- `surveys/lewm/`、`surveys/wam/`：以前のテーマ別調査。
-- `surveys/research_ideas.csv`：方針変更前のアイデア履歴。現在の採用案ではありません。
+- `surveys/architecture/internal/`：更新・検証に必要な書誌情報、根拠、引用、重複判定台帳、検索・レビュー記録。通常の閲覧では開く必要はありません。
 - `.agents/skills/paper-survey/`：調査手順、設定、CSV操作スクリプト。
+
+旧LEWM・WAMのテーマ別調査と方針変更前のアイデア集は削除しました。現在の採用文献は統合サーベイ、研究アイデアは `docs/` を参照してください。削除した資料が必要な場合はGit履歴から確認できます。
 
 論文PDF、HTML全文、一時作業ファイル、モデル重み、データセットはGitへ含めません。
 
@@ -37,8 +37,10 @@
 リポジトリのルートで実行します。
 
 ```sh
-python3 .agents/skills/paper-survey/scripts/survey_csv.py validate surveys/architecture
-python3 .agents/skills/paper-survey/scripts/survey_csv.py duplicates surveys/architecture/registry.csv
+python3 .agents/skills/paper-survey/scripts/survey_csv.py validate surveys/architecture/internal
+python3 .agents/skills/paper-survey/scripts/survey_csv.py duplicates surveys/architecture/internal/registry.csv
 ```
+
+更新時の作業ディレクトリは `surveys/architecture/internal/` です。`export` は作業ディレクトリに `survey.csv` を出力するため、既存の閲覧用CSVを作業ディレクトリへコピーして差分保護を有効にし、変更内容を確認してから出力を `surveys/architecture/survey.csv` へ移動します。閲覧用CSVを2か所に残さないでください。
 
 調査スキルの利用方法は [SKILL.md](.agents/skills/paper-survey/SKILL.md) を参照してください。
